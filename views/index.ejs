@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="tabs">
+    <%- include('partials/header') %>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <main>
+        <div id = "style_main">
+          
+          
+        </div>
+    </main>
+
+    <section id="home" class="hero">
+        <h1>Welcome to Our Boutique</h1>
+        <p>Explore the finest collection of Punjabi suits</p>
+        <button onclick="location.href='/collection'">Explore Now</button>
+    </section>
+
+    <!-- <section id="collection" class="collection">
+        <h2>Our Collection</h2>
+        <div class="product-list">
+            <% products.forEach(product => { %>
+            <div class="product-item">
+                <img src="<%= product.imageUrl %>" alt="<%= product.name %>" class="image">
+                <h3><%= product.name %></h3>
+                <p><%= product.price %> USD</p>
+                <button>Add to Cart</button>
+            </div>
+            <% }); %>
+        </div>
+    </section> -->
+
+    <%- include('partials/footer') %>
+</body>
+</html>
